@@ -1,0 +1,48 @@
+a {text-decoration: none;}
+a:hover {color: hotpink;text-decoration: none;}
+a:active  {color: blue;text-decoration: none;}
+a:visited {  text-decoration: none;}
+/*#navebare{background-color:powderblue;width:100%;height:15%;}*/
+#big_td{width:100%;}
+#smol_tb{width:100%;}
+#td{width:20%;}
+img#col1_im{width:80%; height:110px;border-radius:50%;}
+img#col2_im{width:80%; height:110px;border-radius:50%;}
+img#col3_im{width:80%; height:110px;border-radius:50%;}
+img#col4_im{width:80%; height:110px;border-radius:50%;}
+img#col1_im:hover {width:85%;border-radius:10%;}
+img#col2_im:hover {width:85%;border-radius:10%;}
+img#col3_im:hover {width:85%;border-radius:10%;}
+img#col4_im:hover {width:85%;border-radius:10%;}
+td#td_list{background-color:powderblue;}
+
+
+/* style page shwo_foods */
+
+/*#navebare_f{background-color:powderblue;width:100%;height:15%;}*/
+#big_tb_f{width:100%;}
+#smol_tb_f{width:100%;}
+
+img#col1_im_f{width:80%; height:110px;border-radius:50%;}
+img#col2_im_f{width:80%; height:110px;border-radius:50%;}
+img#col3_im_f{width:80%; height:110px;border-radius:50%;}
+img#col4_im_f{width:80%; height:110px;border-radius:50%;}
+img#col1_im_f:hover {width:85%;border-radius:10%;}
+img#col2_im_f:hover {width:85%;border-radius:10%;}
+img#col3_im_f:hover {width:85%;border-radius:10%;}
+img#col4_im_f:hover {width:85%;border-radius:10%;}
+
+/* style page shwo_offer */
+
+div#navebare_of{ width:100%; height:15%; background-color:powderblue;}
+table#tb_of{ width:100%;}
+td#td_links_f_of{ width:25%;}
+div#di_links_F_of{ background-color:powderblue;}
+div#big_di_img_of{ overflow-y: auto; overflow-x: hidden; height: 545px;}
+div#smal_di_F_of{ padding-top: 90px;}
+img#img1_of{ width:80%;border-radius:20%;}
+img#img2_of{ width:80%;border-radius:20%;}
+img#img1_of:hover {width:85%;border-radius:10%;}
+img#img2_of:hover {width:85%;border-radius:10%;}
+td#td_links_d_of{ width:25%;}
+div#di_links_d_of{background-color:powderblue;}
