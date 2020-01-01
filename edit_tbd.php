@@ -1,6 +1,6 @@
 <?php
 $error_fields=array();
-$conn=mysqli_connect("localhost","root","","santorini_db");
+$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -71,7 +71,7 @@ mysqli_close($conn);
 </head>
 <body background="bm.jpg">
 <?php
-$conn=mysqli_connect("localhost","root","","santorini_db");
+$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
