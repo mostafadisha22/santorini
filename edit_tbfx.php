@@ -79,7 +79,7 @@ $conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
-		exit;
+		exit; 
 	}
  $result1=mysqli_query($conn,"SELECT * FROM foods"); ?>
  <center>
