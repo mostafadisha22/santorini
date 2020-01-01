@@ -70,7 +70,7 @@
 </div>
 <?php
 session_start();
-$DB=mysqli_connect("localhost","root","","santorini_db") or die("error:".mysqli_error());
+$DB=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab") or die("error:".mysqli_error());
 $name=$_GET['foods_section'];
 echo"<center>";
 
