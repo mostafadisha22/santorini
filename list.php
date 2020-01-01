@@ -109,7 +109,7 @@ if(isset($_SESSION['id']))
 	
 	
 	//////////////* table offer *///////////
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -143,7 +143,7 @@ if(isset($_SESSION['id']))
 	echo '<p> welcom '.$_SESSION['name'].' <a href="logout.php" ><mark style=color:red><b> LOG OUT </a></p>';	
 
 
-   $conn=mysqli_connect("localhost","root","","santorini_db");
+   $conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
