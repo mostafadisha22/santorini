@@ -4,7 +4,7 @@ $error_fields=array();
 if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="drink_d")
 {
 	
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -29,7 +29,7 @@ if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="drink_d
 else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="drink_ex")
 {
 	
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -54,7 +54,7 @@ else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="dr
 else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="foods_d")
 {
 	
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -79,7 +79,7 @@ else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="fo
 else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="foods_ex")
 {
 	
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
@@ -103,7 +103,7 @@ else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="fo
 else if((isset($_GET['table']) && !empty($_GET['table'])) && $_GET['table']=="offer")
 {
 	
-	$conn=mysqli_connect("localhost","root","","santorini_db");
+	$conn=mysqli_connect("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","p7pea6nyuhd447xc","o6m61pv5iohheh17","gudvobaxonodgmab");
 	if(! $conn)
 	{
 		echo mysqli_connect_error();
