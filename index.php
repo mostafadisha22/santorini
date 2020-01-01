@@ -33,6 +33,7 @@
     <script src="Articles/js/article1.js"></script>
     <!--<script src="Articles/js/article2.js"></script>-->
 </head>
+	
 
 <body ng-app="BloodBankMod" ng-controller="homeCtrl">
 
